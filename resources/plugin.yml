@@ -1,0 +1,18 @@
+name: ExtraInventory
+version: ${project.version}
+main: com.somemone.extrainventory.ExtraInventory
+api-version: 1.16
+authors: [ Somemone ]
+description: Adds extra inventory spaces to the player
+
+commands:
+  inv:
+    description: Shows the player's extra inventory, if one exists
+    usage: /inv
+    permission: extrainventory.showinv
+
+  invadd:
+    description: Adds the given amount of rows to the given player's inventory
+    usage: /invadd [player] [rows]
+    permission: extrainventory.invadd
+
